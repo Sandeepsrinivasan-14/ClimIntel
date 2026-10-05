@@ -1,0 +1,627 @@
+
+{
+  "Mumbai": [
+    {"date": "2023-11-13", "temperature": 28.5, "humidity": 75, "precipitation": 0.5, "windSpeed": 15, "description": "Cloudy with scattered showers"},
+    {"date": "2023-11-14", "temperature": 28.0, "humidity": 78, "precipitation": 1.2, "windSpeed": 18, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 27.5, "humidity": 80, "precipitation": 0.8, "windSpeed": 16, "description": "Overcast and humid"},
+    {"date": "2023-11-16", "temperature": 29.0, "humidity": 72, "precipitation": 0.1, "windSpeed": 14, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.5, "humidity": 70, "precipitation": 0.0, "windSpeed": 13, "description": "Clear and warm"}
+  ],
+  "Delhi": [
+    {"date": "2023-11-13", "temperature": 25.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 24.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 7, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 25.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-16", "temperature": 24.8, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 26.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 10, "description": "Warm and clear"}
+  ],
+  "Bengaluru": [
+    {"date": "2023-11-13", "temperature": 23.5, "humidity": 70, "precipitation": 0.3, "windSpeed": 10, "description": "Light Rain"},
+    {"date": "2023-11-14", "temperature": 23.0, "humidity": 72, "precipitation": 0.5, "windSpeed": 11, "description": "Overcast"},
+    {"date": "2023-11-15", "temperature": 24.0, "humidity": 68, "precipitation": 0.1, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 23.8, "humidity": 69, "precipitation": 0.2, "windSpeed": 10, "description": "Scattered showers"},
+    {"date": "2023-11-17", "temperature": 24.2, "humidity": 67, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"}
+  ],
+  "Kolkata": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 80, "precipitation": 0.4, "windSpeed": 12, "description": "Humid with possibility of rain"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 82, "precipitation": 0.7, "windSpeed": 14, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 78, "precipitation": 0.2, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.8, "humidity": 79, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 27.5, "humidity": 76, "precipitation": 0.1, "windSpeed": 10, "description": "Mostly Sunny"}
+  ],
+  "Chennai": [
+    {"date": "2023-11-13", "temperature": 30.0, "humidity": 85, "precipitation": 1.0, "windSpeed": 20, "description": "Heavy Rain"},
+    {"date": "2023-11-14", "temperature": 29.5, "humidity": 88, "precipitation": 2.5, "windSpeed": 22, "description": "Monsoon showers"},
+    {"date": "2023-11-15", "temperature": 29.0, "humidity": 87, "precipitation": 1.5, "windSpeed": 18, "description": "Cloudy with rain"},
+    {"date": "2023-11-16", "temperature": 30.5, "humidity": 80, "precipitation": 0.3, "windSpeed": 15, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 31.0, "humidity": 78, "precipitation": 0.0, "windSpeed": 14, "description": "Clear and humid"}
+  ],
+  "Hyderabad": [
+    {"date": "2023-11-13", "temperature": 26.8, "humidity": 65, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.0, "humidity": 63, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 27.5, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-16", "temperature": 27.2, "humidity": 62, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-17", "temperature": 27.8, "humidity": 58, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Ahmedabad": [
+    {"date": "2023-11-13", "temperature": 29.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 29.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 28.8, "humidity": 62, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 29.3, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-17", "temperature": 30.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 12, "description": "Hot and dry"}
+  ],
+  "Pune": [
+    {"date": "2023-11-13", "temperature": 26.2, "humidity": 66, "precipitation": 0.2, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 26.8, "humidity": 64, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 27.0, "humidity": 67, "precipitation": 0.3, "windSpeed": 11, "description": "Scattered Showers"},
+    {"date": "2023-11-16", "temperature": 26.4, "humidity": 65, "precipitation": 0.1, "windSpeed": 10, "description": "Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.2, "humidity": 68, "precipitation": 0.4, "windSpeed": 12, "description": "Rainy"}
+  ],
+  "Surat": [
+    {"date": "2023-11-13", "temperature": 29.2, "humidity": 72, "precipitation": 0.1, "windSpeed": 13, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 28.9, "humidity": 71, "precipitation": 0.2, "windSpeed": 12, "description": "Scattered Showers"},
+    {"date": "2023-11-15", "temperature": 29.5, "humidity": 73, "precipitation": 0.3, "windSpeed": 11, "description": "Humid and Overcast"},
+    {"date": "2023-11-16", "temperature": 28.8, "humidity": 70, "precipitation": 0.0, "windSpeed": 14, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.7, "humidity": 74, "precipitation": 0.4, "windSpeed": 15, "description": "Rainy"}
+  ],
+  "Jaipur": [
+    {"date": "2023-11-13", "temperature": 27.1, "humidity": 50, "precipitation": 0.0, "windSpeed": 13, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 52, "precipitation": 0.0, "windSpeed": 14, "description": "Warm"},
+    {"date": "2023-11-15", "temperature": 26.8, "humidity": 49, "precipitation": 0.0, "windSpeed": 12, "description": "Clear"},
+    {"date": "2023-11-16", "temperature": 27.2, "humidity": 51, "precipitation": 0.1, "windSpeed": 13, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.8, "humidity": 50, "precipitation": 0.0, "windSpeed": 15, "description": "Hot"}
+  ],
+  "Lucknow": [
+    {"date": "2023-11-13", "temperature": 26.4, "humidity": 58, "precipitation": 0.0, "windSpeed": 12, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 26.9, "humidity": 56, "precipitation": 0.1, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-15", "temperature": 27.1, "humidity": 60, "precipitation": 0.2, "windSpeed": 10, "description": "Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.7, "humidity": 59, "precipitation": 0.0, "windSpeed": 13, "description": "Clear and Breezy"},
+    {"date": "2023-11-17", "temperature": 27.3, "humidity": 61, "precipitation": 0.3, "windSpeed": 12, "description": "Rainy"}
+  ],
+  "Kanpur": [
+    {"date": "2023-11-13", "temperature": 25.5, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 26.0, "humidity": 53, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 25.8, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.3, "humidity": 54, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 26.7, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Nagpur": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 12, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 61, "precipitation": 0.1, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 59, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 28.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 13, "description": "Hot and dry"}
+  ],
+  "Indore": [
+    {"date": "2023-11-13", "temperature": 26.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 26.2, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.7, "humidity": 54, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Thane": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 70, "precipitation": 0.3, "windSpeed": 12, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 73, "precipitation": 0.6, "windSpeed": 14, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 68, "precipitation": 0.1, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 71, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 28.5, "humidity": 69, "precipitation": 0.2, "windSpeed": 10, "description": "Humid"}
+  ],
+  "Bhopal": [
+    {"date": "2023-11-13", "temperature": 25.8, "humidity": 58, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 26.2, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 26.0, "humidity": 59, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.5, "humidity": 57, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 26.9, "humidity": 55, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Visakhapatnam": [
+    {"date": "2023-11-13", "temperature": 28.5, "humidity": 78, "precipitation": 0.8, "windSpeed": 16, "description": "Rainy"},
+    {"date": "2023-11-14", "temperature": 28.0, "humidity": 80, "precipitation": 1.5, "windSpeed": 18, "description": "Heavy Showers"},
+    {"date": "2023-11-15", "temperature": 28.8, "humidity": 75, "precipitation": 0.5, "windSpeed": 14, "description": "Cloudy"},
+    {"date": "2023-11-16", "temperature": 29.2, "humidity": 73, "precipitation": 0.2, "windSpeed": 15, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.7, "humidity": 70, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"}
+  ],
+  "Patna": [
+    {"date": "2023-11-13", "temperature": 25.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 25.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 25.3, "humidity": 61, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 25.8, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 26.2, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Vadodara": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 65, "precipitation": 0.0, "windSpeed": 11, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 63, "precipitation": 0.0, "windSpeed": 12, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 66, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 28.7, "humidity": 64, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.0, "humidity": 62, "precipitation": 0.0, "windSpeed": 13, "description": "Warm"}
+  ],
+  "Ghaziabad": [
+    {"date": "2023-11-13", "temperature": 24.5, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-14", "temperature": 25.0, "humidity": 53, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 24.8, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 25.3, "humidity": 54, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 25.7, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Ludhiyana": [
+    {"date": "2023-11-13", "temperature": 23.0, "humidity": 50, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 23.5, "humidity": 48, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 23.2, "humidity": 51, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 23.7, "humidity": 49, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 24.0, "humidity": 47, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Agra": [
+    {"date": "2023-11-13", "temperature": 24.8, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 25.3, "humidity": 53, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 25.0, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 25.5, "humidity": 54, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 26.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Warm and clear"}
+  ],
+  "Nashik": [
+    {"date": "2023-11-13", "temperature": 26.5, "humidity": 65, "precipitation": 0.1, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.0, "humidity": 63, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 26.8, "humidity": 66, "precipitation": 0.2, "windSpeed": 11, "description": "Scattered Showers"},
+    {"date": "2023-11-16", "temperature": 26.2, "humidity": 64, "precipitation": 0.0, "windSpeed": 10, "description": "Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.5, "humidity": 67, "precipitation": 0.3, "windSpeed": 12, "description": "Rainy"}
+  ],
+  "Faridabad": [
+    {"date": "2023-11-13", "temperature": 24.0, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-14", "temperature": 24.5, "humidity": 54, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 24.3, "humidity": 57, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 24.8, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 25.2, "humidity": 53, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Meerut": [
+    {"date": "2023-11-13", "temperature": 23.5, "humidity": 52, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 24.0, "humidity": 50, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 23.8, "humidity": 53, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 24.3, "humidity": 51, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 24.7, "humidity": 49, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Rajkot": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 61, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 28.7, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Hot and dry"}
+  ],
+  "Kalyan-Dombivli": [
+    {"date": "2023-11-13", "temperature": 28.2, "humidity": 70, "precipitation": 0.3, "windSpeed": 12, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.7, "humidity": 73, "precipitation": 0.6, "windSpeed": 14, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 28.4, "humidity": 68, "precipitation": 0.1, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 28.0, "humidity": 71, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 28.7, "humidity": 69, "precipitation": 0.2, "windSpeed": 10, "description": "Humid"}
+  ],
+  "Varanasi": [
+    {"date": "2023-11-13", "temperature": 25.2, "humidity": 58, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 25.7, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 25.5, "humidity": 59, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 26.4, "humidity": 55, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Srinagar": [
+    {"date": "2023-11-13", "temperature": 12.0, "humidity": 70, "precipitation": 0.5, "windSpeed": 8, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 11.5, "humidity": 75, "precipitation": 1.0, "windSpeed": 9, "description": "Light Snow"},
+    {"date": "2023-11-15", "temperature": 12.5, "humidity": 68, "precipitation": 0.2, "windSpeed": 7, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 11.8, "humidity": 72, "precipitation": 0.3, "windSpeed": 8, "description": "Overcast"},
+    {"date": "2023-11-17", "temperature": 13.0, "humidity": 65, "precipitation": 0.0, "windSpeed": 6, "description": "Clear"}
+  ],
+  "Aurangabad": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 61, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 28.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Dhanbad": [
+    {"date": "2023-11-13", "temperature": 26.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 26.3, "humidity": 61, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.8, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 27.2, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Amritsar": [
+    {"date": "2023-11-13", "temperature": 22.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 22.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 22.2, "humidity": 56, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 22.7, "humidity": 54, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 23.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Navi Mumbai": [
+    {"date": "2023-11-13", "temperature": 28.3, "humidity": 75, "precipitation": 0.4, "windSpeed": 14, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.8, "humidity": 78, "precipitation": 0.9, "windSpeed": 16, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 28.5, "humidity": 73, "precipitation": 0.2, "windSpeed": 13, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 28.0, "humidity": 76, "precipitation": 0.0, "windSpeed": 15, "description": "Clear and humid"},
+    {"date": "2023-11-17", "temperature": 29.0, "humidity": 72, "precipitation": 0.1, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Allahabad": [
+    {"date": "2023-11-13", "temperature": 25.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 25.5, "humidity": 55, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 25.2, "humidity": 58, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 25.7, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 26.0, "humidity": 54, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Ranchi": [
+    {"date": "2023-11-13", "temperature": 24.5, "humidity": 65, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 24.0, "humidity": 67, "precipitation": 0.0, "windSpeed": 11, "description": "Cloudy"},
+    {"date": "2023-11-15", "temperature": 24.8, "humidity": 63, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-16", "temperature": 24.3, "humidity": 66, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-17", "temperature": 25.0, "humidity": 62, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Howrah": [
+    {"date": "2023-11-13", "temperature": 27.2, "humidity": 80, "precipitation": 0.3, "windSpeed": 12, "description": "Humid with possibility of rain"},
+    {"date": "2023-11-14", "temperature": 26.7, "humidity": 83, "precipitation": 0.6, "windSpeed": 14, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 27.5, "humidity": 78, "precipitation": 0.1, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 27.0, "humidity": 79, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 27.8, "humidity": 76, "precipitation": 0.2, "windSpeed": 10, "description": "Mostly Sunny"}
+  ],
+  "Jabalpur": [
+    {"date": "2023-11-13", "temperature": 25.5, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 26.0, "humidity": 53, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 25.8, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.3, "humidity": 54, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 26.7, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Gwalior": [
+    {"date": "2023-11-13", "temperature": 24.0, "humidity": 50, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 24.5, "humidity": 48, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 24.2, "humidity": 51, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 24.7, "humidity": 49, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 25.0, "humidity": 47, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Vijayawada": [
+    {"date": "2023-11-13", "temperature": 29.0, "humidity": 70, "precipitation": 0.5, "windSpeed": 15, "description": "Cloudy with scattered showers"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 73, "precipitation": 1.0, "windSpeed": 16, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 29.2, "humidity": 68, "precipitation": 0.3, "windSpeed": 14, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 28.8, "humidity": 71, "precipitation": 0.1, "windSpeed": 15, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 29.5, "humidity": 69, "precipitation": 0.0, "windSpeed": 13, "description": "Warm"}
+  ],
+  "Jodhpur": [
+    {"date": "2023-11-13", "temperature": 27.5, "humidity": 45, "precipitation": 0.0, "windSpeed": 12, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 28.0, "humidity": 43, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 47, "precipitation": 0.0, "windSpeed": 11, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 44, "precipitation": 0.0, "windSpeed": 12, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 28.3, "humidity": 42, "precipitation": 0.0, "windSpeed": 14, "description": "Hot and dry"}
+  ],
+  "Madurai": [
+    {"date": "2023-11-13", "temperature": 29.8, "humidity": 80, "precipitation": 0.7, "windSpeed": 18, "description": "Rainy"},
+    {"date": "2023-11-14", "temperature": 29.3, "humidity": 82, "precipitation": 1.2, "windSpeed": 20, "description": "Heavy Showers"},
+    {"date": "2023-11-15", "temperature": 30.0, "humidity": 78, "precipitation": 0.4, "windSpeed": 17, "description": "Cloudy"},
+    {"date": "2023-11-16", "temperature": 29.5, "humidity": 79, "precipitation": 0.1, "windSpeed": 19, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 30.2, "humidity": 77, "precipitation": 0.0, "windSpeed": 16, "description": "Clear"}
+  ],
+  "Raipur": [
+    {"date": "2023-11-13", "temperature": 27.5, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 28.0, "humidity": 58, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 27.7, "humidity": 61, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 28.2, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 28.5, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Kota": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 50, "precipitation": 0.0, "windSpeed": 13, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 48, "precipitation": 0.0, "windSpeed": 14, "description": "Warm"},
+    {"date": "2023-11-15", "temperature": 26.8, "humidity": 51, "precipitation": 0.0, "windSpeed": 12, "description": "Clear"},
+    {"date": "2023-11-16", "temperature": 27.2, "humidity": 49, "precipitation": 0.0, "windSpeed": 13, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.8, "humidity": 47, "precipitation": 0.0, "windSpeed": 15, "description": "Hot"}
+  ],
+  "Bhubaneswar": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 80, "precipitation": 0.5, "windSpeed": 15, "description": "Cloudy with scattered showers"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 83, "precipitation": 1.0, "windSpeed": 17, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 78, "precipitation": 0.3, "windSpeed": 14, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 79, "precipitation": 0.1, "windSpeed": 16, "description": "Clear and humid"},
+    {"date": "2023-11-17", "temperature": 28.5, "humidity": 76, "precipitation": 0.0, "windSpeed": 13, "description": "Warm"}
+  ],
+  "Mysuru": [
+    {"date": "2023-11-13", "temperature": 22.5, "humidity": 70, "precipitation": 0.2, "windSpeed": 9, "description": "Light Rain"},
+    {"date": "2023-11-14", "temperature": 22.0, "humidity": 72, "precipitation": 0.4, "windSpeed": 10, "description": "Overcast"},
+    {"date": "2023-11-15", "temperature": 23.0, "humidity": 68, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 22.8, "humidity": 69, "precipitation": 0.1, "windSpeed": 9, "description": "Scattered showers"},
+    {"date": "2023-11-17", "temperature": 23.2, "humidity": 67, "precipitation": 0.0, "windSpeed": 7, "description": "Clear"}
+  ],
+  "Aligarh": [
+    {"date": "2023-11-13", "temperature": 24.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 24.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 7, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 24.2, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 24.7, "humidity": 54, "precipitation": 0.0, "windSpeed": 8, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 25.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Bareilly": [
+    {"date": "2023-11-13", "temperature": 23.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 24.0, "humidity": 56, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 23.8, "humidity": 59, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 24.3, "humidity": 57, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 24.7, "humidity": 55, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Moradabad": [
+    {"date": "2023-11-13", "temperature": 23.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 23.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 23.2, "humidity": 56, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 23.7, "humidity": 54, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 24.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Saharanpur": [
+    {"date": "2023-11-13", "temperature": 22.5, "humidity": 50, "precipitation": 0.0, "windSpeed": 7, "description": "Clear"},
+    {"date": "2023-11-16", "temperature": 27.3, "humidity": 81, "precipitation": 0.0, "windSpeed": 15, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 28.0, "humidity": 78, "precipitation": 0.1, "windSpeed": 12, "description": "Mostly Sunny"}
+  ],
+  "Amravati": [
+    {"date": "2023-11-13", "temperature": 26.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 26.2, "humidity": 61, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.7, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Noida": [
+    {"date": "2023-11-13", "temperature": 24.5, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-14", "temperature": 25.0, "humidity": 53, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 24.8, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 25.3, "humidity": 54, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 25.7, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Jamshedpur": [
+    {"date": "2023-11-13", "temperature": 26.5, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 27.0, "humidity": 58, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 26.8, "humidity": 61, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 27.3, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 27.7, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Kochi": [
+    {"date": "2023-11-13", "temperature": 29.0, "humidity": 85, "precipitation": 1.2, "windSpeed": 18, "description": "Heavy Rain"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 88, "precipitation": 2.0, "windSpeed": 20, "description": "Monsoon showers"},
+    {"date": "2023-11-15", "temperature": 29.2, "humidity": 83, "precipitation": 0.7, "windSpeed": 16, "description": "Cloudy with rain"},
+    {"date": "2023-11-16", "temperature": 28.8, "humidity": 86, "precipitation": 0.4, "windSpeed": 19, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.5, "humidity": 82, "precipitation": 0.0, "windSpeed": 15, "description": "Clear and humid"}
+  ],
+  "Guwahati": [
+    {"date": "2023-11-13", "temperature": 26.0, "humidity": 75, "precipitation": 0.3, "windSpeed": 12, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 25.5, "humidity": 78, "precipitation": 0.6, "windSpeed": 14, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 26.2, "humidity": 73, "precipitation": 0.1, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 25.8, "humidity": 76, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 26.5, "humidity": 72, "precipitation": 0.2, "windSpeed": 10, "description": "Humid"}
+  ],
+  "Thiruvananthapuram": [
+    {"date": "2023-11-13", "temperature": 29.5, "humidity": 88, "precipitation": 1.5, "windSpeed": 20, "description": "Heavy Rain"},
+    {"date": "2023-11-14", "temperature": 29.0, "humidity": 90, "precipitation": 2.8, "windSpeed": 22, "description": "Monsoon showers"},
+    {"date": "2023-11-15", "temperature": 29.8, "humidity": 85, "precipitation": 1.0, "windSpeed": 18, "description": "Cloudy with rain"},
+    {"date": "2023-11-16", "temperature": 29.3, "humidity": 87, "precipitation": 0.5, "windSpeed": 21, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 30.0, "humidity": 84, "precipitation": 0.0, "windSpeed": 17, "description": "Clear and humid"}
+  ],
+  "Mangaluru": [
+    {"date": "2023-11-13", "temperature": 28.5, "humidity": 85, "precipitation": 1.0, "windSpeed": 17, "description": "Heavy Rain"},
+    {"date": "2023-11-14", "temperature": 28.0, "humidity": 87, "precipitation": 1.8, "windSpeed": 19, "description": "Monsoon showers"},
+    {"date": "2023-11-15", "temperature": 28.8, "humidity": 83, "precipitation": 0.6, "windSpeed": 15, "description": "Cloudy with rain"},
+    {"date": "2023-11-16", "temperature": 28.3, "humidity": 84, "precipitation": 0.3, "windSpeed": 18, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.0, "humidity": 81, "precipitation": 0.0, "windSpeed": 14, "description": "Clear and humid"}
+  ],
+  "Bhiwandi": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 72, "precipitation": 0.4, "windSpeed": 13, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 75, "precipitation": 0.8, "windSpeed": 15, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 70, "precipitation": 0.1, "windSpeed": 12, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 73, "precipitation": 0.0, "windSpeed": 14, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 28.5, "humidity": 71, "precipitation": 0.2, "windSpeed": 11, "description": "Humid"}
+  ],
+  "Warangal": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 65, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 63, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 66, "precipitation": 0.0, "windSpeed": 11, "description": "Hazy Sun"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 64, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 28.0, "humidity": 62, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Gandhinagar": [
+    {"date": "2023-11-13", "temperature": 28.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 29.0, "humidity": 56, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 28.7, "humidity": 59, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 29.2, "humidity": 57, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.5, "humidity": 55, "precipitation": 0.0, "windSpeed": 12, "description": "Hot and dry"}
+  ],
+  "Dehradun": [
+    {"date": "2023-11-13", "temperature": 18.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 18.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 18.2, "humidity": 61, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 18.7, "humidity": 59, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 19.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Udaipur": [
+    {"date": "2023-11-13", "temperature": 26.5, "humidity": 48, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 27.0, "humidity": 46, "precipitation": 0.0, "windSpeed": 12, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 26.8, "humidity": 49, "precipitation": 0.0, "windSpeed": 10, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 27.3, "humidity": 47, "precipitation": 0.0, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.7, "humidity": 45, "precipitation": 0.0, "windSpeed": 13, "description": "Hot and dry"}
+  ],
+  "Nellore": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 68, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 66, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 69, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 28.7, "humidity": 67, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.0, "humidity": 65, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Ajmer": [
+    {"date": "2023-11-13", "temperature": 26.0, "humidity": 50, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 48, "precipitation": 0.0, "windSpeed": 11, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 26.2, "humidity": 51, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.7, "humidity": 49, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.0, "humidity": 47, "precipitation": 0.0, "windSpeed": 12, "description": "Hot"}
+  ],
+  "Shimla": [
+    {"date": "2023-11-13", "temperature": 15.0, "humidity": 65, "precipitation": 0.3, "windSpeed": 7, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 14.5, "humidity": 70, "precipitation": 0.8, "windSpeed": 8, "description": "Light Rain"},
+    {"date": "2023-11-15", "temperature": 15.5, "humidity": 60, "precipitation": 0.1, "windSpeed": 6, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 14.8, "humidity": 68, "precipitation": 0.0, "windSpeed": 7, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 16.0, "humidity": 62, "precipitation": 0.0, "windSpeed": 5, "description": "Sunny"}
+  ],
+  "Jalandhar": [
+    {"date": "2023-11-13", "temperature": 22.5, "humidity": 55, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 23.0, "humidity": 53, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 22.8, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 23.3, "humidity": 54, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 23.7, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Bikaner": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 40, "precipitation": 0.0, "windSpeed": 15, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 38, "precipitation": 0.0, "windSpeed": 16, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 27.8, "humidity": 42, "precipitation": 0.0, "windSpeed": 14, "description": "Hot and dry"},
+    {"date": "2023-11-16", "temperature": 28.3, "humidity": 39, "precipitation": 0.0, "windSpeed": 15, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 28.8, "humidity": 37, "precipitation": 0.0, "windSpeed": 17, "description": "Very Hot"}
+  ],
+  "Ahmednagar": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 61, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 27.7, "humidity": 59, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 28.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Kollam": [
+    {"date": "2023-11-13", "temperature": 29.0, "humidity": 86, "precipitation": 1.3, "windSpeed": 19, "description": "Heavy Rain"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 89, "precipitation": 2.2, "windSpeed": 21, "description": "Monsoon showers"},
+    {"date": "2023-11-15", "temperature": 29.3, "humidity": 84, "precipitation": 0.8, "windSpeed": 17, "description": "Cloudy with rain"},
+    {"date": "2023-11-16", "temperature": 28.9, "humidity": 87, "precipitation": 0.5, "windSpeed": 20, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.6, "humidity": 83, "precipitation": 0.0, "windSpeed": 16, "description": "Clear and humid"}
+  ],
+  "Satara": [
+    {"date": "2023-11-13", "temperature": 25.5, "humidity": 65, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 26.0, "humidity": 63, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 25.8, "humidity": 66, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.3, "humidity": 64, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 26.7, "humidity": 62, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Malegaon": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 11, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 27.8, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 28.3, "humidity": 54, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 28.7, "humidity": 52, "precipitation": 0.0, "windSpeed": 12, "description": "Hot"}
+  ],
+  "Kurnool": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 70, "precipitation": 0.3, "windSpeed": 12, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 27.5, "humidity": 72, "precipitation": 0.6, "windSpeed": 14, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 68, "precipitation": 0.1, "windSpeed": 11, "description": "Clear"},
+    {"date": "2023-11-16", "temperature": 27.8, "humidity": 69, "precipitation": 0.0, "windSpeed": 13, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 28.5, "humidity": 67, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Durgapur": [
+    {"date": "2023-11-13", "temperature": 26.5, "humidity": 60, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 27.0, "humidity": 58, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 26.8, "humidity": 61, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 27.3, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.7, "humidity": 57, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Solapur": [
+    {"date": "2023-11-13", "temperature": 28.5, "humidity": 65, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 29.0, "humidity": 63, "precipitation": 0.0, "windSpeed": 11, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 28.7, "humidity": 66, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy Sun"},
+    {"date": "2023-11-16", "temperature": 29.2, "humidity": 64, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 29.5, "humidity": 62, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Rourkela": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 70, "precipitation": 0.3, "windSpeed": 12, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 73, "precipitation": 0.7, "windSpeed": 14, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 68, "precipitation": 0.1, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.8, "humidity": 71, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 27.5, "humidity": 69, "precipitation": 0.2, "windSpeed": 10, "description": "Humid"}
+  ],
+  "Jamnagar": [
+    {"date": "2023-11-13", "temperature": 29.0, "humidity": 50, "precipitation": 0.0, "windSpeed": 12, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 29.5, "humidity": 48, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 28.8, "humidity": 52, "precipitation": 0.0, "windSpeed": 11, "description": "Hot and dry"},
+    {"date": "2023-11-16", "temperature": 29.3, "humidity": 49, "precipitation": 0.0, "windSpeed": 12, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.8, "humidity": 47, "precipitation": 0.0, "windSpeed": 14, "description": "Very Hot"}
+  ],
+  "Kolhapur": [
+    {"date": "2023-11-13", "temperature": 26.0, "humidity": 68, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 66, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 26.2, "humidity": 69, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.7, "humidity": 67, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.0, "humidity": 65, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Belagavi": [
+    {"date": "2023-11-13", "temperature": 24.5, "humidity": 70, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-14", "temperature": 25.0, "humidity": 68, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 24.8, "humidity": 71, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy Sun"},
+    {"date": "2023-11-16", "temperature": 25.3, "humidity": 69, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 25.7, "humidity": 67, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Tiruppur": [
+    {"date": "2023-11-13", "temperature": 28.0, "humidity": 75, "precipitation": 0.0, "windSpeed": 10, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 73, "precipitation": 0.0, "windSpeed": 11, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 28.2, "humidity": 76, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 28.7, "humidity": 74, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.0, "humidity": 72, "precipitation": 0.0, "windSpeed": 12, "description": "Warm"}
+  ],
+  "Cuttack": [
+    {"date": "2023-11-13", "temperature": 27.5, "humidity": 82, "precipitation": 0.6, "windSpeed": 14, "description": "Humid with possibility of rain"},
+    {"date": "2023-11-14", "temperature": 27.0, "humidity": 85, "precipitation": 1.1, "windSpeed": 16, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 27.8, "humidity": 80, "precipitation": 0.4, "windSpeed": 13, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 27.3, "humidity": 81, "precipitation": 0.0, "windSpeed": 15, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 28.0, "humidity": 78, "precipitation": 0.1, "windSpeed": 12, "description": "Mostly Sunny"}
+  ],
+  "Bhiwani": [
+    {"date": "2023-11-13", "temperature": 25.0, "humidity": 50, "precipitation": 0.0, "windSpeed": 9, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 25.5, "humidity": 48, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 25.2, "humidity": 51, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 25.7, "humidity": 49, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 26.0, "humidity": 47, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Panipat": [
+    {"date": "2023-11-13", "temperature": 24.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 8, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 24.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 7, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 24.2, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 24.7, "humidity": 54, "precipitation": 0.0, "windSpeed": 8, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 25.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Bilaspur": [
+    {"date": "2023-11-17", "temperature": 23.7, "humidity": 47, "precipitation": 0.0, "windSpeed": 9, "description": "Warm"}
+  ],
+  "Etawah": [
+    {"date": "2023-11-13", "temperature": 24.0, "humidity": 58, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 24.5, "humidity": 56, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 24.2, "humidity": 59, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 24.7, "humidity": 57, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 25.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Puducherry": [
+    {"date": "2023-11-13", "temperature": 29.0, "humidity": 80, "precipitation": 0.9, "windSpeed": 15, "description": "Rainy"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 83, "precipitation": 1.7, "windSpeed": 17, "description": "Heavy Showers"},
+    {"date": "2023-11-15", "temperature": 29.2, "humidity": 78, "precipitation": 0.6, "windSpeed": 13, "description": "Cloudy"},
+    {"date": "2023-11-16", "temperature": 28.8, "humidity": 79, "precipitation": 0.3, "windSpeed": 14, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 29.5, "humidity": 76, "precipitation": 0.0, "windSpeed": 12, "description": "Clear"}
+  ],
+  "Pathankot": [
+    {"date": "2023-11-13", "temperature": 20.0, "humidity": 60, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-14", "temperature": 20.5, "humidity": 58, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-15", "temperature": 20.2, "humidity": 61, "precipitation": 0.0, "windSpeed": 7, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 20.7, "humidity": 59, "precipitation": 0.0, "windSpeed": 8, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 21.0, "humidity": 57, "precipitation": 0.0, "windSpeed": 10, "description": "Warm"}
+  ],
+  "Thanjavur": [
+    {"date": "2023-11-13", "temperature": 29.0, "humidity": 82, "precipitation": 0.7, "windSpeed": 14, "description": "Humid with possibility of rain"},
+    {"date": "2023-11-14", "temperature": 28.5, "humidity": 85, "precipitation": 1.2, "windSpeed": 16, "description": "Moderate Rain"},
+    {"date": "2023-11-15", "temperature": 29.2, "humidity": 80, "precipitation": 0.5, "windSpeed": 13, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 28.8, "humidity": 81, "precipitation": 0.0, "windSpeed": 15, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 29.5, "humidity": 78, "precipitation": 0.1, "windSpeed": 12, "description": "Mostly Sunny"}
+  ],
+  "Salem": [
+    {"date": "2023-11-13", "temperature": 28.5, "humidity": 78, "precipitation": 0.5, "windSpeed": 13, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 28.0, "humidity": 81, "precipitation": 1.0, "windSpeed": 15, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 28.7, "humidity": 76, "precipitation": 0.2, "windSpeed": 12, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 28.3, "humidity": 79, "precipitation": 0.0, "windSpeed": 14, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 29.0, "humidity": 75, "precipitation": 0.0, "windSpeed": 11, "description": "Humid"}
+  ],
+  "Ujjain": [
+    {"date": "2023-11-13", "temperature": 26.0, "humidity": 55, "precipitation": 0.0, "windSpeed": 10, "description": "Sunny"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 53, "precipitation": 0.0, "windSpeed": 11, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 26.2, "humidity": 56, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy"},
+    {"date": "2023-11-16", "temperature": 26.7, "humidity": 54, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-17", "temperature": 27.0, "humidity": 52, "precipitation": 0.0, "windSpeed": 12, "description": "Hot"}
+  ],
+  "Bihar Sharif": [
+    {"date": "2023-11-13", "temperature": 25.5, "humidity": 60, "precipitation": 0.0, "windSpeed": 9, "description": "Hazy Sun"},
+    {"date": "2023-11-14", "temperature": 26.0, "humidity": 58, "precipitation": 0.0, "windSpeed": 8, "description": "Clear"},
+    {"date": "2023-11-15", "temperature": 25.8, "humidity": 61, "precipitation": 0.0, "windSpeed": 10, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.3, "humidity": 59, "precipitation": 0.0, "windSpeed": 9, "description": "Sunny"},
+    {"date": "2023-11-17", "temperature": 26.7, "humidity": 57, "precipitation": 0.0, "windSpeed": 11, "description": "Warm"}
+  ],
+  "Agartala": [
+    {"date": "2023-11-13", "temperature": 27.0, "humidity": 75, "precipitation": 0.3, "windSpeed": 12, "description": "Cloudy"},
+    {"date": "2023-11-14", "temperature": 26.5, "humidity": 78, "precipitation": 0.6, "windSpeed": 14, "description": "Scattered showers"},
+    {"date": "2023-11-15", "temperature": 27.2, "humidity": 73, "precipitation": 0.1, "windSpeed": 11, "description": "Partly Cloudy"},
+    {"date": "2023-11-16", "temperature": 26.8, "humidity": 76, "precipitation": 0.0, "windSpeed": 13, "description": "Clear"},
+    {"date": "2023-11-17", "temperature": 27.5, "humidity": 72, "precipitation": 0.2, "windSpeed": 10, "description": "Humid"}
+  ]
+}

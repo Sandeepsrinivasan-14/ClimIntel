@@ -1,5 +1,5 @@
 import { genkit } from 'genkit';
-import { googleAI } from '@genkit-ai/googleai';
+import { googleAI } from '@genkit-ai/google-genai';
 
 /** Gemini model used for insights and search. Override with GEMINI_MODEL in .env.local. */
 export const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.5-flash';

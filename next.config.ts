@@ -2,7 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   // Load Genkit from node_modules at runtime instead of bundling it (avoids optional-dependency warnings).
-  serverExternalPackages: ['genkit', '@genkit-ai/googleai', '@genkit-ai/core'],
+  serverExternalPackages: ['genkit', '@genkit-ai/google-genai', '@genkit-ai/core'],
   images: {
     remotePatterns: [
       // Weather condition icons from WeatherAPI.com (only used when WEATHER_API_KEY is set)
